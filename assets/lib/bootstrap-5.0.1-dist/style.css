@@ -45,6 +45,8 @@ img {
 }
 
 .resim {
+  margin-right: auto;
+  margin-left: auto;
   width: 150px;
   height: 200px;
   transition: 0.5s;
@@ -52,6 +54,7 @@ img {
 .resim:hover {
   transform: scale(1.2);
   z-index: 2;
+  cursor: pointer;
 }
 
 /* .img-fluid {
