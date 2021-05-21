@@ -1,0 +1,132 @@
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <!-- ! Bootstrap'i lokalden çalıştırmak için Boostrap indirerek dosyaları proje dosyamıza (Örneğin assets/lib klasörüne) ekleyebiliriz. Sonrasında ise aşağıdaki gibi bootstrap.min.css dosyasına link verebiliriz. -->
+    <!--? Ayrıca sayfanın en sonuna doğru Bootstrap JS kodlarını da kullanamk istersek <script> etiketi ile ana js kodunu eklememiz gerekir. -->
+      
+    <link
+      rel="stylesheet"
+      href="assets/lib/bootstrap-5.0.1-dist/css/bootstrap.css"
+    />
+    
+    <link rel="stylesheet" href="assets/lib/bootstrap-5.0.1-dist/style.css" />
+    <title>CODINGFORKIDS</title>
+  </head>
+  <body>
+
+    <div class="container-fluid baslik border border-3 bg-danger bg-gradient p-5 text-center text-light">
+       <h1 class="display-5">CODING APP FOR KIDS</h1>
+       <p class="lead">Welcome to the first experience in the field of IT</p>
+    </div>
+    
+
+    <div>
+      <img  class="img-fluid border border-danger border-3" src="assets/img/graduate-section-boy-ipad-nologo (1).png" alt="" />
+    </div>
+
+    <div class="container justify-aline-center mt-3">
+     <div class="row">
+       <div class="col">
+         <p class="p">ELEMENTS</p>
+         <img class="img-flud resim border border-dark border-4 rounded-pill "  src="assets/img/Childrens-Computer-Software.jpg" alt="" >
+       </div>
+       <div class="col">
+          <p class="p">FORMS</p>
+         <img  class="img-fluid resim border border-dark border-4 rounded-pill"  src="assets/img/coding_1.png" alt="">
+       </div>
+       <div class="col">
+          <p class="p">ALERTS,FRAME& WINDOWS</p>
+         <img  class="img-fluid resim border border-dark border-4 rounded-pill"  src="assets/img/codingforkids.png" alt="">
+       </div>
+       <div class="col">
+          <p class="p">WIDGETS</p>
+         <img class="img-fluid resim border border-dark border-4 rounded-pill"  src="assets/img/images.jpg" alt="">
+       </div>
+       <div class="col">
+          <p class="p">INTERACTIONS</p>
+         <img class="img-fluid resim border border-dark border-4 rounded-pill"  src="assets/img/images.png" alt="">
+       </div>
+       <div class="col">
+          <p class="p">BOOK STORE APPLICATION</p>
+         <img class="img-fluid resim border border-dark border-4 rounded-pill"  src="assets/img/istockphoto-1093952842-612x612.jpg" alt="">
+       </div>
+     </div>
+   </div>
+
+
+
+   
+    <div class="container text-end mt-5">
+       <h2>Registration form</h2>
+    <form action="Kaydet.php">
+      <label class="label" for="ad">Name</label>
+      <input
+        class="input"
+        type="ad"
+        id="ad"
+        placeholder="isimizi giriniz"
+        name="isim"
+        value=""
+      />
+      <br />
+      <label class="label" for="soyad">Lastname</label>
+      <input
+        class="input"
+        type="Soyadiniz"
+        id="soyad"
+        placeholder="soyadinizi giriniz"
+        name="soyad giriniz"
+        value=""
+      />
+      <br />
+      <label class="label" for="email">Email</label>
+      <input
+        class="input"
+        type="Email"
+        id="email"
+        placeholder="email giriniz"
+        name="email giriniz"
+        value=""
+      />
+      <br />
+      <label class="label" for="password">Password</label>
+      <input
+        class="input"
+        type="password"
+        id="password"
+        placeholder="password giriniz"
+        name="password giriniz"
+        value=""
+      />
+      
+      <div class="container mt-2">
+        <button class="btn btn-outline-warning" type="submit" value="Submit"  >SUBMIT</button>
+        <button class="btn btn-outline-warning" type="reset" value="clear">CLEAR</button>
+
+      </div>
+      
+
+      <p>Please select your gender</p>
+      <select class="form-select" aria-label="Default select example">
+        <option selected>Open this select menu</option>
+        <option value="Male">Male</option>
+        <option value="Female">Female</option>
+        <option value="Other">Other</option>
+      </select>
+      
+       <div class="container mt-2  ">
+        <p>Accept<input class="mx-4" type="checkbox" /></p>
+       </div>
+
+      
+      
+
+    </div>
+   
+
+    <script src="assets/lib/bootstrap-5.0.1-dist/js/bootstrap.bundle.js"></script>
+  </body>
+</html>
